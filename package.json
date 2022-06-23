@@ -1,0 +1,27 @@
+{
+  "name": "jscrud",
+  "version": "1.0.0",
+  "description": "CRUD Operation with Mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitgetvantage/crudjs.git"
+  },
+  "author": "durgesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitgetvantage/crudjs/issues"
+  },
+  "homepage": "https://github.com/gitgetvantage/crudjs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
